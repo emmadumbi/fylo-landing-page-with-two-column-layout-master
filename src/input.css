@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    min-height: 100dvh;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+a,
+button,
+input::placeholder {
+    font-family: "Raleway", sans-serif;
+
+}
+
+a,
+p {
+    color:  hsl(238, 22%, 44%);
+}
+
+h1,
+h2 {
+    color:  hsl(243, 87%, 12%);
+}
+
+h1 {
+    font-size: clamp(1.4rem, 0.857vw + 1.229rem, 2rem);
+}
+
+h2 {
+    font-size: clamp(1.019rem, 0.81rem + 1.045vw, 1.75rem);
+}
+
+h3 {
+    font-size: clamp(1.125rem, 1.018rem + 0.536vw, 1.5rem);
+}
+
+a {
+    font-size: clamp(0.75rem, 0.696rem + 0.268vw, 0.938rem);
+}
+
+p {
+    font-size: clamp(0.857rem, 0.804rem + 0.357vw, 1.125rem);
+}
+
+button {
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
+    font-size: clamp(0.75rem, 0.679rem + 0.357vw, 0.938rem);
+}
+
+.input{
+    border: 1px solid hsl(0, 0%, 75%);
+    outline: none;
+    font-size:  clamp(0.688rem, 0.634rem + 0.268vw, 0.875rem);
+}
+
+.features {
+    background-color: hsl(0, 0%, 97.5%);
+}
+
+.features__link {
+    color: hsl(170, 45%, 43%);
+    text-decoration: underline;
+    text-underline-offset: .5em;
+}
+
+.features__link:active {
+    color: hsl(170, 45%, 50%);
+}
+
+.cta {
+    background-color: hsl(238, 22%, 44%);
+    color: hsl(240, 75%, 98%);
+}
+
+.cta__desc {
+    color: hsl(0, 0%, 75%);
+}
+
+.footer {
+    background-color: hsl(243, 87%, 12%);
+}
+
+.footer a {
+    color: #fff;
+}
+
+button:active {
+    background-color: hsl(224, 93%, 58%);
+}
+
+footer a:active {
+    color: hsl(224, 93%, 58%);
+}
